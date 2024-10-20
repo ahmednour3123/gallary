@@ -6,12 +6,10 @@ const Images = ({ data, onClick }) => {
     onClick(index);
   };
 
-  // Define breakpoints for responsive design
   const isMobile = useMediaQuery('(max-width:600px)');
   const isTablet = useMediaQuery('(max-width:960px)');
   const isDesktop = useMediaQuery('(min-width:960px)');
 
-  // Set the number of columns and gap based on screen size
   const getCols = () => {
     if (isMobile) return 2;
     if (isTablet) return 3;
