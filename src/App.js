@@ -1,19 +1,4 @@
-import {
-  Box,
-  Button,
-  Paper,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Typography,
-  Accordion,
-  AccordionSummary,
-  AccordionDetails,
-  Grid,
-} from "@mui/material";
+import {Box,Button, Grid} from "@mui/material";
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import {
